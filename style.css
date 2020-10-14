@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.add-task {
+    width: 80%;
+    margin: auto;
+}
+
+#list {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    width: 78%;
+    display: inline-flex;
+    margin: 15px 15px 0 0;
+    height: 38px;
+    background-color: #eee;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: .25rem;
+}
+
+.btn-danger {
+    width: 20% !important;
+    display: inline-block !important;
+}
